@@ -5,3 +5,5 @@
     display: inline;
     padding: 0 1rem;
     font-size: calc(18px+0.5vw);}
+    img {max-height: auto;
+    max-width: 20vw ;}
