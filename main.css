@@ -12,7 +12,7 @@ font-family: Georgia;}
     margin-bottom: 10vw;}
 .nav-menu li a {color: #f2eee8; 
     text-decoration: none;}
-main{ color:#4E0A0B;
+main, h4{ color:#4E0A0B;
     padding-left: 15vw;
     padding-right: 15vw;}
 .reviews-container{display: grid;
@@ -34,3 +34,4 @@ main{ color:#4E0A0B;
     border-radius: 5px;}
 ul{list-style: none;
     line-height: 2vw;}
+
