@@ -48,16 +48,15 @@ ul{list-style: none;
 .star-rating{color:#badd7f}
 .lists-container{display: inline-flex;
     gap: 1vw;
-    flex-wrap: wrap;
+    flex-wrap: flex;
     box-sizing: border-box;
     Background-color:#badd7f;
-    color:#3e8440;}
+    color:#3e8440;
+    box-align: center;}
 .current-read{flex: 1;
-    min-width: 15vw;
-    padding-right: 15vw;} 
+    min-width: 15vw;}
 .recs {flex: 1;
-    min-width: 15vw;
-    padding-left: 15vw;}
+    min-width: 15vw;}
 .book-title{font-size: 2vw;
     color:#3e8440;
     background-color:#badd7f;
