@@ -1,17 +1,27 @@
-.body{background-color: #f2eee8;}
-.nav-menu{background-color: lightgray;
+body{background-color:#f2eee8;
+font-family: Georgia;}
+.nav-menu {background-color:#4E0A0B ;
     padding: 1.5rem;
-    text-align: center}
-.nav-menu li{list-style-type: none;
+    text-align: center;
+    color:#f2eee8;}
+.nav-menu li {list-style-type: none;
     display: inline;
     padding: 0 1rem;
-    font-size: calc(18px+0.5vw);}
+    font-size: 2vw;
+    margin-bottom: 10vw;}
+.nav-menu li a {color: #f2eee8; 
+    text-decoration: none;}
+main{ color:#4E0A0B;
+    padding-left: 15vw;
+    padding-right: 15vw;}
 .reviews-container{display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-columns: 30vw 50vw;
     gap: 3vw;
     column-gap: rem;
-    padding-top: 10vw;}
+    padding-top: 10vw;
+    color:#4E0A0B;
+    padding-right: 15vw;}
 .book-review {grid-column: 2;}
 .book-cover {max-height: 15vw;
     max-width: auto ;
