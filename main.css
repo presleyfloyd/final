@@ -6,10 +6,10 @@ font-family: Georgia;}
 .nav-menu li {list-style-type: none;
     display: inline;
     padding-inline: 3vw;
-    font-size: 2vw;
-    margin-bottom: 10vw;}
+    font-size: 2vw;}
 .nav-menu li a {color:#4E0A0B; 
     text-decoration: none;}
+hr{background-color:#3e8440;}
 .reviews-container{display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-columns: 30vw 50vw;
@@ -32,7 +32,40 @@ ul{list-style: none;
 .about-me{box-sizing: border-box;
     Background-color:#badd7f;
     color:#3e8440;}
-.my-text{padding-left: 40vw;
+.about-text{padding-left: 55vw;
     padding-right:15vw;
-    padding-top: 5vw;
     padding-bottom: 5vw;}
+.about-title {padding-left: 55vw;
+    padding-right:15vw;
+    padding-top: 5vw;}
+.star-rating-1{ padding-left: 15vw;
+    color:#4E0A0B}
+.star-rating{color:#badd7f}
+.lists-container {box-sizing: border-box;
+  display: inline-flex;
+  gap: 1vw;
+  flex-wrap: wrap;
+  background-color: #badd7f;
+  color:#3e8440;}
+.current-read{flex: 1;
+    min-width: 15vw;
+    padding-right: 15vw;} 
+.recs {flex: 1;
+    min-width: 15vw;
+    padding-left: 15vw;}
+.book-title{font-size: 2vw;
+    color:#3e8440;
+    background-color:#badd7f;
+    border-radius: 5px;
+    padding:1vw}
+.book-rank{padding-left: 15vw;
+    color:#4E0A0B;
+    padding-right:15vw}
+h4{padding-left:15vw;
+    color:#badd7f;}
+.blurred{ 
+    filter: blur(1vw);
+    transition: 0.3s ease;
+    cursor: Pointer;}
+.blurred:hover{filter:blur(0vw);}
+
