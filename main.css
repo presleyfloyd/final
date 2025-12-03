@@ -1,15 +1,20 @@
+.body{background-color: #f2eee8;}
 .nav-menu{background-color: lightgray;
     padding: 1.5rem;
-    text-align: left;}
+    text-align: center}
 .nav-menu li{list-style-type: none;
     display: inline;
     padding: 0 1rem;
     font-size: calc(18px+0.5vw);}
 .reviews-container{display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3vw;}
-.book-review {column: 2;}
-img {max-height: 10vw;
+    grid-template-columns: 30vw 50vw;
+    gap: 3vw;
+    column-gap: rem;
+    padding-top: 10vw;}
+.book-review {grid-column: 2;}
+.book-cover {max-height: 15vw;
     max-width: auto ;
     flex-shrink: 0;
-    column:1;}
+    grid-column:1;
+    padding-left: 20vw;}
