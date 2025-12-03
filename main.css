@@ -30,6 +30,7 @@ main{ color:#4E0A0B;
     max-width: auto ;
     flex-shrink: 0;
     grid-column:1;
-    padding-left: 15vw;}
+    padding-left: 15vw;
+    border-radius: 5px;}
 ul{list-style: none;
     line-height: 2vw;}
