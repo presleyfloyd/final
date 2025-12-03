@@ -5,5 +5,11 @@
     display: inline;
     padding: 0 1rem;
     font-size: calc(18px+0.5vw);}
-    img {max-height: 10vw;
-    max-width: auto ;}
+.reviews-container{display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3vw;}
+.book-review {column: 2;}
+img {max-height: 10vw;
+    max-width: auto ;
+    flex-shrink: 0;
+    column:1;}
