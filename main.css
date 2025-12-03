@@ -28,3 +28,5 @@ main{ color:#4E0A0B;
     flex-shrink: 0;
     grid-column:1;
     padding-left: 20vw;}
+ul{list-style: none;
+    line-height: 2vw;}
