@@ -1,67 +1,71 @@
 body{background-color:#f2eee8;
-font-family: Georgia;}
-.nav-menu {background-color:#f2eee8;
-    padding: 0;}
-.nav-menu ul {list-style: none;
+	font-family: Georgia;
+    margin: 0;
+    max-width: 100%;
+    color:#4E0A0B}
+.nav-menu ul {display: flex;
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    text-align: center;}
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  gap: 1vw;}
 .nav-menu li {margin: 0;}
-.nav-menu a {margin-left: 3vw;
+.nav-menu a {color: #4E0A0B;
     display: block;
-    color:#4E0A0B;
-    text-decoration: none;
-    padding:0;
-    font-size: 1.2vw;}
+    font-size: 1.2vw;
+    margin: 0;       
+    padding: 0.5vw 1vw;
+    text-decoration: none;}
 hr{background-color:#3e8440;}
-.reviews-container{display: grid;
+.theme-image {
+    display: block;
+    margin: 0 auto;
+    width: 40vw;
+    height: auto;}
+.about-text{color:#4E0A0B;
+    margin-left:17vw;
+    margin-right: 15vw;}
+.about-title{color:#4E0A0B;
+    margin-left:15vw;}
+.reviews-container{max-width: 40vw;
+    color:#4E0A0B;
+	display: grid;
+	gap: 3vw;
     grid-template-columns: repeat(2, 1fr);
     grid-template-columns: 30vw 50vw;
-    gap: 3vw;
-    padding-top: 10vw;
-    color:#4E0A0B;}
-.book-review {grid-column: 2;
-    padding-right:15vw;
-    background-color:#f2eee8;
+    padding-top: 10vw;}
+.book-review {background-color:#f2eee8;
     border-radius: 15px;
+    grid-column: 2;
+    padding-right:15vw;
     padding: 3vw;}
-.book-cover {max-height: 20vw;
+.book-cover {border-radius: 5px;
+	flex-shrink: 0;
+	grid-column:1;
+	max-height: 20vw;
     max-width: auto ;
-    flex-shrink: 0;
-    grid-column:1;
-    padding-left: 15vw;
-    border-radius: 5px;}
+    padding-left: 15vw;}
 ul{list-style: none;
     line-height: 2vw;}
-.about-me{box-sizing: border-box;
-    Background-color:#badd7f;
-    color:#3e8440;}
-.about-text{padding-left: 55vw;
-    padding-right:15vw;
-    padding-bottom: 5vw;}
-.about-title {padding-left: 55vw;
-    padding-right:15vw;
-    padding-top: 5vw;}
+.about-text {line-height: 1.6;}
+.about-text {font-size: 1.1rem;}
 .star-rating-1{ padding-left: 15vw;
     color:#4E0A0B}
-.star-rating{color:#badd7f}
-.lists-container{display: inline-flex;
-    gap: 1vw;
-    flex-wrap: flex;
-    box-sizing: border-box;
-    Background-color:#badd7f;
-    color:#3e8440;
-    box-align: center;}
+.star-rating{color:goldenrod}
+.lists-container {display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+    color:#4E0A0B;
+    margin-left:13vw;
+    margin-right:15vw;}
 .current-read{flex: 1;
     min-width: 15vw;}
 .recs {flex: 1;
     min-width: 15vw;}
 .book-title{font-size: 2vw;
-    color:#3e8440;
-    background-color:#badd7f;
-    border-radius: 5px;
-    padding:1vw}
+    color:#4E0A0B;}
 .book-rank{padding-left: 15vw;
     color:#4E0A0B;
     padding-right:15vw}
@@ -75,7 +79,8 @@ h4{padding-left:15vw;
 a{margin-right: 15vw;
     list-style-type: none;
     font-size: 2vw;
-    color:#4E0A0B;}
+    color:#4E0A0B;
+    margin-left:10vw;}
 .credits-list{ color:#3e8440;
     display: flex;
     flex-direction: column;
