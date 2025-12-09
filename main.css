@@ -9,8 +9,7 @@ body{background-color:#f2eee8;
     padding: 0;
     text-align: center;
     justify-content: center;
-    align-items: center;
-  gap: 1vw;}
+    align-items: center;}
 .nav-menu li {margin: 0;}
 .nav-menu a {color: #4E0A0B;
     display: block;
@@ -29,24 +28,9 @@ hr{background-color:#3e8440;}
     margin-right: 15vw;}
 .about-title{color:#4E0A0B;
     margin-left:15vw;}
-.reviews-container{max-width: 40vw;
-    color:#4E0A0B;
-	display: grid;
-	gap: 3vw;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: 30vw 50vw;
-    padding-top: 10vw;}
-.book-review {background-color:#f2eee8;
-    border-radius: 15px;
-    grid-column: 2;
-    padding-right:15vw;
-    padding: 3vw;}
-.book-cover {border-radius: 5px;
-	flex-shrink: 0;
-	grid-column:1;
-	max-height: 20vw;
-    max-width: auto ;
-    padding-left: 15vw;}
+
+
+    
 ul{list-style: none;
     line-height: 2vw;}
 .about-text {line-height: 1.6;}
@@ -54,15 +38,14 @@ ul{list-style: none;
 .star-rating-1{ padding-left: 15vw;
     color:#4E0A0B}
 .star-rating{color:goldenrod}
-.lists-container {display: grid;
-    grid-template-columns: 1fr 1fr;
+#flex-contaner {display: flex;
     gap: 3vw;
     color:#4E0A0B;
     margin-left:13vw;
     margin-right:15vw;}
-.current-read{flex: 1;
+#felx-item1{flex: 1;
     min-width: 15vw;}
-.recs {flex: 1;
+#flex-item2{flex: 1;
     min-width: 15vw;}
 .book-title{font-size: 2vw;
     color:#4E0A0B;}
