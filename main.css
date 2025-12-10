@@ -1,71 +1,74 @@
 body{background-color:#f2eee8;
+     color:#4E0A0B;
 	font-family: Georgia;
     margin: 0;
-    max-width: 100%;
-    color:#4E0A0B}
-.nav-menu ul {display: flex;
+    max-width: 100%;}
+.nav-menu ul{align-items: center;
+    display: flex;
+    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
-    justify-content: center;
-    align-items: center;}
-.nav-menu li {margin: 0;}
-.nav-menu a {color: #4E0A0B;
+    text-align: center;}
+.nav-menu li{margin: 0;}
+.nav-menu a{color: #4E0A0B;
     display: block;
     font-size: 1.2vw;
     margin: 0;       
     padding: 0.5vw 1vw;
     text-decoration: none;}
 hr{background-color:#3e8440;}
-.theme-image {
-    display: block;
+.theme-image {display: block;
+    height: auto;
     margin: 0 auto;
-    width: 40vw;
-    height: auto;}
+    width: 40vw;}
 .about-text{color:#4E0A0B;
+    line-height: 1.6;
     margin-left:17vw;
-    margin-right: 15vw;}
+    margin-right: 15vw;
+    font-size: 1.1rem;}
 .about-title{color:#4E0A0B;
     margin-left:15vw;}
-
-
-    
-ul{list-style: none;
-    line-height: 2vw;}
-.about-text {line-height: 1.6;}
-.about-text {font-size: 1.1rem;}
-.star-rating-1{ padding-left: 15vw;
-    color:#4E0A0B}
+.reviews-container{display: flex wrap;}
+.book-cover{width: 15vw;
+    height:20vw;}
+.mini-container{display:flex;
+    padding-bottom: 5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vw;}
+.book-review{padding-left: 5vw;}
+ul{line-height: 2vw;
+    list-style: none;}
+.star-rating-1{color:#4E0A0B;
+     padding-left: 15vw;}
 .star-rating{color:goldenrod}
-#flex-contaner {display: flex;
-    gap: 3vw;
-    color:#4E0A0B;
+#flex-contaner {color:#4E0A0B;
+    display: flex;
     margin-left:13vw;
     margin-right:15vw;}
 #felx-item1{flex: 1;
     min-width: 15vw;}
 #flex-item2{flex: 1;
     min-width: 15vw;}
-.book-title{font-size: 2vw;
-    color:#4E0A0B;}
-.book-rank{padding-left: 15vw;
-    color:#4E0A0B;
+.book-title{color:#4E0A0B;
+    font-size: 2vw;}
+.book-rank{color:#4E0A0B;
+    padding-left: 15vw;
     padding-right:15vw}
-h4{padding-left:15vw;
-    color:#badd7f;}
-.blurred{ 
+h4{color:#badd7f;
+    padding-left:15vw;}
+.blurred{cursor: Pointer;
     filter: blur(1vw);
-    transition: 0.3s ease;
-    cursor: Pointer;}
+    transition: 0.3s ease;}
 .blurred:hover{filter:blur(0vw);}
-a{margin-right: 15vw;
-    list-style-type: none;
+a{color:#4E0A0B;
     font-size: 2vw;
-    color:#4E0A0B;
-    margin-left:10vw;}
-.credits-list{ color:#3e8440;
+    list-style-type: none;
+    margin-left:10vw;
+    margin-right: 15vw;}
+.credits-list{border-radius: 15vw;
+    color:#3e8440;
     display: flex;
     flex-direction: column;
-    gap: 2vw; margin: 10vw;
-    border-radius: 15px}
+    gap: 2vw; margin: 10vw;}
