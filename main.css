@@ -50,7 +50,8 @@ ul{line-height: 2vw;
 #felx-item1{flex: 1;
     min-width: 15vw;}
 #flex-item2{flex: 1;
-    min-width: 15vw;}
+    min-width: 15vw;
+    padding-left: 5vw;}
 .book-title{color:#4E0A0B;
     font-size: 2vw;}
 .book-rank{color:#4E0A0B;
