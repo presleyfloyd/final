@@ -64,9 +64,9 @@ h4{color:#badd7f;
     transition: 0.3s ease;}
 .blurred:hover{filter:blur(0vw);}
 a{color:#4E0A0B;
-    font-size: 2vw;
+    font-size: 1.5vw;
     list-style-type: none;
-    margin-left:10vw;
+    margin-left:15vw;
     margin-right: 15vw;}
 .credits-list{border-radius: 15vw;
     color:#3e8440;
